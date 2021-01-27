@@ -44,3 +44,55 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+***
+
+
+# Install
+
+### creating project :
+
+`npx create-react-app my-app --template typescript`
+
+### add project to git repo :
+
+    git init
+    git add .
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/pleleu-dev/mix-and-match.git
+
+### setting up vs code :
+
+PLugins : ESLint / Prettier / Babel Javascript
+
+settings.json :
+
+    {
+    "css.lint.unknownAtRules": "ignore",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[json]": {
+        "editor.quickSuggestions": {
+        "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    },
+    "editor.formatOnSave": false,
+    // turn it off for JS and JSX, we will do this via eslint
+    "[typescript]": {
+        "editor.formatOnSave": false
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": false
+    },
+    "eslint.workingDirectories": [
+        {
+        "mode": "auto"
+        }
+    ],
+    "eslint.validate": ["typescript", "typescriptreact"],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+    }
