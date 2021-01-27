@@ -251,3 +251,18 @@ package.json add :
     },
 
 
+### add react material ui:
+
+`npm install @material-ui/core`
+
+
+add to index.html :
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+
+optional :
+
+`npm install @material-ui/icons`
+
+add to index.html :
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
