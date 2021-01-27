@@ -39,6 +39,19 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+### `npm run lint`
+
+Use esLint on app to analyzes and quickly find problems
+
+### `npm run format`
+
+Use prettier to format code
+
+### `npm run isready`
+
+Format code, find problems and builds the app for production to the `build` folder
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -70,29 +83,150 @@ PLugins : ESLint / Prettier / Babel Javascript
 settings.json :
 
     {
-    "css.lint.unknownAtRules": "ignore",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[json]": {
-        "editor.quickSuggestions": {
-        "strings": true
+        "css.lint.unknownAtRules": "ignore",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "[json]": {
+            "editor.quickSuggestions": {
+            "strings": true
+            },
+            "editor.suggest.insertMode": "replace"
         },
-        "editor.suggest.insertMode": "replace"
-    },
-    "editor.formatOnSave": false,
-    // turn it off for JS and JSX, we will do this via eslint
-    "[typescript]": {
-        "editor.formatOnSave": false
-    },
-    "[typescriptreact]": {
-        "editor.formatOnSave": false
-    },
-    "eslint.workingDirectories": [
-        {
-        "mode": "auto"
+        "editor.formatOnSave": false,
+        // turn it off for JS and JSX, we will do this via eslint
+        "[typescript]": {
+            "editor.formatOnSave": false
+        },
+        "[typescriptreact]": {
+            "editor.formatOnSave": false
+        },
+        "eslint.workingDirectories": [
+            {
+            "mode": "auto"
+            }
+        ],
+        "eslint.validate": ["typescript", "typescriptreact"],
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
         }
-    ],
-    "eslint.validate": ["typescript", "typescriptreact"],
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
     }
+
+### setting up eslint /prettier :
+
+eslint :
+
+`npm i -D --save-exact eslint-config-airbnb eslint-config-airbnb-typescript eslint-config-prettier eslint-config-react-app eslint-import-resolver-typescript eslint-loader eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks babel-eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin`
+
+prettier :
+
+`npm i -D --save-exact prettier prettier-eslint prettier-eslint-cli eslint-plugin-prettier`
+
+
+.eslintrc
+
+    // .eslintrc
+    {
+        "plugins": ["prettier", "@typescript-eslint"],
+        "extends": ["airbnb-typescript", "react-app", "prettier"],
+        "parser": "@typescript-eslint/parser",
+        "parserOptions": {
+            "project": "./tsconfig.json"
+        },
+        "settings": {
+            "import/resolver": {
+            "typescript": {
+                "alwaysTryTypes": true
+            }
+            }
+        },
+        "rules": {
+            "object-curly-spacing": ["warn", "always"],
+            "no-unused-vars": [
+            "warn",
+            {
+                "vars": "all",
+                "args": "none"
+            }
+            ],
+            "@typescript-eslint/no-unused-vars": [
+            "warn",
+            {
+                "vars": "all",
+                "args": "none"
+            }
+            ],
+            "@typescript-eslint/no-explicit-any": [
+            "error",
+            {
+                "ignoreRestArgs": true
+            }
+            ],
+            "max-len": [
+            "warn",
+            {
+                "code": 80,
+                "ignoreStrings": true,
+                "ignoreTemplateLiterals": true,
+                "ignoreComments": true
+            }
+            ],
+            "no-plusplus": [
+            "error",
+            {
+                "allowForLoopAfterthoughts": true
+            }
+            ],
+            "react/jsx-key": "error",
+            "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": [
+                "**/*.test.js",
+                "**/*.test.jsx",
+                "**/*.test.ts",
+                "**/*.test.tsx",
+                "src/tests/**/*"
+                ]
+            }
+            ],
+            "react/jsx-props-no-spreading": "off",
+            "import/prefer-default-export": "off",
+            "react/jsx-boolean-value": "off",
+            "react/prop-types": "off",
+            "react/no-unescaped-entities": "off",
+            "react/jsx-one-expression-per-line": "off",
+            "react/jsx-wrap-multilines": "off",
+            "react/destructuring-assignment": "off",
+            "@typescript-eslint/comma-dangle": ["error", {
+            "arrays": "only-multiline",
+            "objects": "only-multiline",
+            "imports": "only-multiline",
+            "exports": "only-multiline",
+            "functions": "never"
+            }]
+        }
     }
+
+.eslintignore
+
+    // .eslintignore
+    build/*
+    public/*
+    src/react-app-env.d.ts
+    src/serviceWorker.ts
+
+
+.prettierrc
+
+    // .prettierrc
+    {
+        "printWidth": 80,
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "tabWidth": 2
+    }
+
+package.json add script :
+
+    + "lint": "eslint --ext .js,.jsx,.ts,.tsx src --color",
+    + "format": "prettier --write 'src/**/*.{ts,tsx,scss,css,json}'",
+    + "isready": "npm run format && npm run lint && npm run build"
