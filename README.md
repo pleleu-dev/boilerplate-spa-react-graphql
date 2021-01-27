@@ -230,3 +230,24 @@ package.json add script :
     + "lint": "eslint --ext .js,.jsx,.ts,.tsx src --color",
     + "format": "prettier --write 'src/**/*.{ts,tsx,scss,css,json}'",
     + "isready": "npm run format && npm run lint && npm run build"
+
+
+### pre-Commit hooks check using Husky:
+
+`npm i -D --save-exact husky lint-staged`
+
+
+package.json add :
+
+    "husky": {
+        "hooks": {
+        "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+        "prettier --write"
+        ]
+    },
+
+
