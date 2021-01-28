@@ -49,7 +49,7 @@ Use prettier to format code
 
 ### `npm run isready`
 
-Format code, find problems and builds the app for production to the `build` folder
+Format code, find problems, run tests and builds the app for production to the `build` folder
 
 
 ## Learn More
@@ -68,6 +68,12 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 `npx create-react-app my-app --template typescript`
 
+
+
+
+
+
+
 ### add project to git repo :
 
     git init
@@ -75,6 +81,12 @@ To learn React, check out the [React documentation](https://reactjs.org/).
     git commit -m "first commit"
     git branch -M main
     git remote add origin https://github.com/pleleu-dev/mix-and-match.git
+
+
+
+
+
+
 
 ### setting up vs code :
 
@@ -109,6 +121,12 @@ settings.json :
             "source.fixAll.eslint": true
         }
     }
+
+
+
+
+
+
 
 ### setting up eslint /prettier :
 
@@ -232,6 +250,12 @@ package.json add script :
     + "isready": "npm run format && npm run lint && npm run build"
 
 
+
+
+
+
+
+
 ### pre-Commit hooks check using Husky:
 
 `npm i -D --save-exact husky lint-staged`
@@ -251,6 +275,12 @@ package.json add :
     },
 
 
+
+
+
+
+
+
 ### add react material ui:
 
 `npm install @material-ui/core`
@@ -266,3 +296,86 @@ optional :
 
 add to index.html :
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+
+
+
+
+
+### add test with with jest and enzyme:
+
+`npm i -D ts-jest jest-fetch-mock enzyme enzyme-adapter-react-16 enzyme-to-json @types/enzyme @types/enzyme-adapter-react-16 --save-exact`
+
+package.json
+
+    "jest": {
+        "collectCoverageFrom": [
+        "src/**/*.{js,jsx,ts,tsx}",
+        "!src/**/*.d.ts",
+        "!src/index.tsx",
+        "!src/serviceWorker.ts",
+        "!src/reportWebVitals.ts"
+        ],
+        "coveragePathIgnorePatterns": [
+        "./src/*/*.types.{ts,tsx}",
+        "./src/index.tsx",
+        "./src/serviceWorker.ts"
+        ],
+        "coverageReporters": [
+        "json",
+        "lcov",
+        "text-summary",
+        "clover"
+        ],
+        "coverageThreshold": {
+        "global": {
+            "statements": 95,
+            "branches": 95,
+            "lines": 95,
+            "functions": 95
+        }
+        },
+        "snapshotSerializers": [
+        "enzyme-to-json/serializer"
+        ],
+        "transform": {
+        "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/ts-jest"
+        },
+        "transformIgnorePatterns": [
+        "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$",
+        "^.+\\.module\\.(css|sass|scss)$"
+        ],
+        "moduleNameMapper": {
+        "^react-native$": "react-native-web",
+        "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy",
+        "src/(.*)$": "<rootDir>/src/$1"
+        }
+    }
+
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "`test:coverage": "react-scripts test --coverage --runInBand --watchAll=false`",
+        "eject": "react-scripts eject",
+        "lint": "eslint --ext .js,.jsx,.ts,.tsx src --color",
+        "format": "prettier --write src/**/*.{ts,tsx,scss,css,json}",
+        "isready": "npm run format && npm run lint `&& npm run test:coverage && npm run build`"
+    },
+
+src/setupTests.ts
+
+    /* eslint-disable import/no-extraneous-dependencies */
+    import Enzyme from 'enzyme';
+    import ReactSixteenAdapter from 'enzyme-adapter-react-16';
+    Enzyme.configure({ adapter: new ReactSixteenAdapter() });
+
+app.test.tsx
+
+    import React from 'react';
+    import { shallow } from 'enzyme';
+    import App from '../App';
+    test('renders the component', () => {
+        const component = shallow(<App />);
+        expect(component).toMatchSnapshot();
+    });
