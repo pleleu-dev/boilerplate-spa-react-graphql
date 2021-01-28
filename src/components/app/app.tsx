@@ -9,11 +9,9 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
 import Grid from '@material-ui/core/Grid';
 import styles from './app.module.css';
-import logo from '../../images/logo.svg';
+import logo from '../../images/logo.png';
 
 
 
@@ -22,25 +20,11 @@ function App() {
     <Router>
       <AppBar position="static">
         <Toolbar>
-          <IconButton edge="start" color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
           <Grid item xs={12}>
             <Grid container justify="center" spacing={2}>
-
               <Grid item>
                 <Typography variant="h6">
-                  <Link to="/">Home</Link>
-                </Typography>
-              </Grid>
-              <Grid item>
-                <Typography variant="h6">
-                  <Link to="/about">About</Link>
-                </Typography>
-              </Grid>
-              <Grid item>
-                <Typography variant="h6">
-                  <Link to="/dashboard">Dashboard</Link>
+                  <img src={logo} className={styles.logo} alt="logo" />
                 </Typography>
               </Grid>
             </Grid>
@@ -48,6 +32,27 @@ function App() {
           <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
+      <Toolbar>
+        <Grid item xs={12}>
+          <Grid container justify="center" spacing={2}>
+            <Grid item>
+              <Typography variant="h6">
+                <Link to="/">Home</Link>
+              </Typography>
+            </Grid>
+            <Grid item>
+              <Typography variant="h6">
+                <Link to="/about">About</Link>
+              </Typography>
+            </Grid>
+            <Grid item>
+              <Typography variant="h6">
+                <Link to="/dashboard">Dashboard</Link>
+              </Typography>
+            </Grid>
+          </Grid>
+        </Grid>
+      </Toolbar>
 
       {/*
           A <Switch> looks through all its children <Route>
@@ -79,7 +84,6 @@ function Home() {
     <div>
       <div className={styles.app}>
         <header className={styles.header}>
-          <img src={logo} className={styles.logo} alt="logo" />
           <Typography variant="h3" component="h2" gutterBottom>
             Setting up project mix-and-match
           </Typography>
