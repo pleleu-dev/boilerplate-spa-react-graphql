@@ -298,8 +298,60 @@ add to index.html :
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
 
+### or instead add tailwind :
+
+`npm install tailwindcss@npm:@tailwindcss/postcss7-compat @tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9`
+
+`npm install @craco/craco`
 
 
+package.json update scripts :
+
+    - "start": "react-scripts start",
+    - "build": "react-scripts build",
+    - "test": "react-scripts test",
+    + "start": "craco start",
+    + "build": "craco build",
+    + "test": "craco test",
+      "eject": "react-scripts eject"
+
+
+add craco config file :
+
+    // craco.config.js
+    module.exports = {
+    style: {
+        postcss: {
+        plugins: [
+            require('tailwindcss'),
+            require('autoprefixer'),
+        ],
+        },
+    },
+    }
+
+
+add tailwind config file :
+
+    // tailwind.config.js
+    module.exports = {
+        purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+        darkMode: false, // or 'media' or 'class'
+        theme: {
+            extend: {},
+        },
+        variants: {
+            extend: {},
+        },
+        plugins: [],
+    }
+
+change index.css :
+
+    /* ./src/index.css */
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
 
 
 ### add test with with jest and enzyme:
