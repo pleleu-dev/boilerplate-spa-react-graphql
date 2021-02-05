@@ -6,7 +6,7 @@ import {
   Link
 } from 'react-router-dom';
 import styles from './app.module.css';
-import logo from '../../images/logo.png';
+
 
 
 
@@ -20,9 +20,9 @@ function App() {
               <polygon points="50,0 100,0 50,100 0,100" />
             </svg>
     
-            <div className="mt-6 p-6 mx-auto bg-white rounded-full shadow-md flex items-center space-x-4 inline-flex">
-              <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
-                <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+            <div className={styles.MainNav__wrapper}>
+              <nav className={styles.MainNav__content} aria-label="Global">
+                <div className={styles.MainNav__logoWrapper}>
                   <div className="flex items-center justify-between w-full md:w-auto">
                     <Link to="/"> 
                       <span className="sr-only">Workflow</span>
