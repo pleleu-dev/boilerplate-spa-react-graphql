@@ -1,15 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {
+  ApolloProvider,
+  HttpLink,
+  ApolloClient,
+  InMemoryCache,
+} from '@apollo/client';
 import './index.css';
 import App from './components/app';
 import reportWebVitals from './reportWebVitals';
 
+
+const graphQLink = new HttpLink({
+  uri: 'https://spacexdata.herokuapp.com/graphql',
+});
+const cache = new InMemoryCache();
+const client = new ApolloClient({
+  link: graphQLink,
+  cache,
+  credentials: 'include',
+  resolvers: {},
+});
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ApolloProvider client={client}>
+      <App />
+    </ApolloProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

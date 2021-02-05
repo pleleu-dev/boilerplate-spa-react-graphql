@@ -5,7 +5,53 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import { useLaunchListQuery, LaunchListQuery } from '../../generated/graphql';
+
+
 import styles from './app.module.css';
+
+
+interface Props {
+  data: LaunchListQuery;
+}
+
+
+
+const LaunchProfile: React.FC<Props> = ({ data }) => {
+  if (!data.launches || !data.launches[0]) {
+    return <div>No launch available</div>;
+  }
+
+  return (
+    <div className="toto">
+      <div className="">
+        <span>Flight {data.launches[0].flight_number}: </span>
+        
+      </div>
+      <h1 className="">
+        {data.launches[0].mission_name} : {data.launches[0].launch_year}
+        
+      </h1>
+      
+    </div>
+  );
+};
+
+
+
+const LaunchListContainer = () => {
+  const { data, error, loading } = useLaunchListQuery();
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error || !data) {
+    return <div>ERROR</div>;
+  }
+
+  return <LaunchProfile data={data} />;
+};
 
 
 
@@ -15,6 +61,7 @@ function App() {
     <Router>
       <div className="relative bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto">
+          <LaunchListContainer />
           <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
             <svg className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
               <polygon points="50,0 100,0 50,100 0,100" />
@@ -127,6 +174,7 @@ function App() {
           </div>
         </div>
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+          
           <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80" alt="" />
         </div>
       </div>

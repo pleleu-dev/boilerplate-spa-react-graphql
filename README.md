@@ -90,7 +90,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### setting up vs code :
 
-PLugins : ESLint / Prettier / Babel Javascript
+Plugins : ESLint / Prettier / Babel Javascript
 
 settings.json :
 
@@ -431,3 +431,166 @@ app.test.tsx
         const component = shallow(<App />);
         expect(component).toMatchSnapshot();
     });
+
+
+
+### add graphQL and apollo client :
+
+`npm i graphql`
+
+Generate code from your GraphQL schema and operations with a simple CLI
+
+`npm install -D @graphql-codegen/cli`
+
+`npx graphql-codegen init`
+
+
+    ? What type of application are you building? Application built with React
+    ? Where is your schema?: http://localhost:4000
+    ? Where are your operations and fragments?: src/**/*/queries.ts
+    ? Pick plugins: TypeScript React Apollo (typed components and HOCs)
+    ? Where to write the output: src/generated/graphql.tsx
+    ? Do you want to generate an introspection file? Yes
+    ? How to name the config file? codegen.yml
+    ? What script in package.json should run the codegen? codegen
+
+
+codegen.yml 
+
+    overwrite: true
+    schema: "https://spacexdata.herokuapp.com/graphql"
+    documents: "src/**/*.queries.ts"
+    generates:
+    src/generated/graphql.tsx:
+        plugins:
+        - "typescript"
+        - "typescript-operations"
+        - "typescript-react-apollo"
+    ./graphql.schema.json:
+        plugins:
+        - "introspection"
+        config:
+            withHooks: true
+
+
+package.json update scripts :
+
+     + "codegen": "graphql-codegen --config codegen.yml"
+
+
+add apollo client :
+
+`npm i @apollo/client`
+
+
+generate schema :
+
+`npm run codegen`
+
+
+index.tsx :
+
+    import React from 'react';
+    import ReactDOM from 'react-dom';
+    import {
+    ApolloProvider,
+    HttpLink,
+    ApolloClient,
+    InMemoryCache,
+    } from '@apollo/client';
+    import './index.css';
+    import App from './components/app';
+    import reportWebVitals from './reportWebVitals';
+
+
+    const graphQLink = new HttpLink({
+    uri: 'https://spacexdata.herokuapp.com/graphql',
+    });
+    const cache = new InMemoryCache();
+    const client = new ApolloClient({
+    link: graphQLink,
+    cache,
+    credentials: 'include',
+    resolvers: {},
+    });
+    ReactDOM.render(
+    <React.StrictMode>
+        <ApolloProvider client={client}>
+        <App />
+        </ApolloProvider>
+    </React.StrictMode>,
+    document.getElementById('root')
+    );
+
+
+    // If you want to start measuring performance in your app, pass a function
+    // to log results (for example: reportWebVitals(console.log))
+    // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+    reportWebVitals();
+
+
+add a Graphql explorer :
+
+`npm i -D express express-graphql @graphql-tools/load @graphql-tools/json-file-loader`
+
+
+graphql.server.js
+
+    const express = require('express');
+    const { graphqlHTTP } = require('express-graphql');
+    const { loadSchema } = require('@graphql-tools/load');
+    const { JsonFileLoader } = require('@graphql-tools/json-file-loader');
+
+    const app = express();
+
+    // yarn codegen (with introspection plugin) must run first so ./graphql.schema.json is available to use here
+    loadSchema('./graphql.schema.json', {
+    loaders: [new JsonFileLoader()],
+    })
+    .then(async (schema) => {
+        app.use(
+        '/graphql',
+        graphqlHTTP({
+            schema,
+            graphiql: true,
+        }),
+        );
+        app.listen(4000);
+        console.log(
+        'Running a GraphQL API server at http://localhost:4000/graphql',
+        );
+    })
+    .catch((err) => {
+        console.error('Unable to load schema definitions', err);
+    });
+
+package.json update scripts :
+
+    + "graphql": "npm run codegen && node graphql.server.js"
+
+
+add vs code plugin :
+
+apollo.config.js
+
+    // apollo.config.js
+    module.exports = {
+        client : {
+            service : {
+                url : "http://localhost:4000/graphql",
+                skipSSLValidation : true
+
+            }
+        }
+    }
+
+install plugin Apollo GraphQL
+
+update .gitignore :
+
+    +  graphql.schema.json
+
+update .eslintignore :
+
+    + apollo.config.js
+    + graphql.server.js
