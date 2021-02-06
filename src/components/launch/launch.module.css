@@ -1,0 +1,4 @@
+.Launch__wrapper{
+    @apply mt-6 p-6 mx-auto bg-white rounded-full shadow-md items-center space-x-4 inline-flex
+}
+
