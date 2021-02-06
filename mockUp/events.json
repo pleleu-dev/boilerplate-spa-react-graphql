@@ -1,0 +1,1992 @@
+[
+    {
+      "kind": "calendar#event",
+      "etag": "601e3fb173466751895502cf",
+      "id": "601e3fb128ffedd6194aea72",
+      "status": "cancelled",
+      "htmlLink": "http://localhost:3000/event/601e3fb128ffedd6194aea72",
+      "media": [
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "tempor",
+          "mimeType": "id",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb117caab3e5a4c716d"
+        }
+      ],
+      "tags": [
+        "danse",
+        "adulte",
+        "expert",
+        "intérieur"
+      ],
+      "created": "2015-03-23T17:28:50+00:00",
+      "updated": "2021-01-22T01:23:22+00:00",
+      "summary": "dolore esse deserunt minim",
+      "description": "Occaecat incididunt nulla non velit laboris esse ea non adipisicing ullamco dolor minim culpa excepteur. Eiusmod ea consequat sint irure aute cupidatat laborum aliquip proident irure nostrud ad reprehenderit. Reprehenderit aliqua sit aliqua ex commodo irure excepteur laborum duis voluptate esse id. Proident dolor ad labore voluptate officia cillum et qui in nostrud occaecat excepteur ut. Consequat proident consectetur deserunt mollit nisi fugiat est ex fugiat nulla tempor exercitation.",
+      "location": "729 Bryant Street, Kieler, New Jersey, 6743",
+      "colorId": "blue",
+      "price": "20.54",
+      "creator": {
+        "id": "601e3fb19e971ddac7c249b1",
+        "email": "schneider@mail.ca",
+        "displayName": "Greer",
+        "self": true
+      },
+      "organizer": {
+        "id": "601e3fb1d98683d3fac1268e",
+        "email": "english@mail.info",
+        "displayName": "Joyce",
+        "self": false
+      },
+      "start": {
+        "date": "2021-56-05",
+        "dateTime": "2021-01-19T10:23:44+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "end": {
+        "date": "2021-24-12",
+        "dateTime": "2021-01-23T23:08:41+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "endTimeUnspecified": false,
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;COUNT=5;BYDAY=TU,FR"
+      ],
+      "recurringEventId": "601e3fb1642b586a46830ca5",
+      "originalStartTime": {
+        "date": "2021-41-22",
+        "dateTime": "2021-01-16T21:17:29+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "transparency": "transparent",
+      "visibility": "confidential",
+      "iCalUID": "TODO : SEARCH FORMAT",
+      "sequence": 106,
+      "attendees": [
+        {
+          "id": "601e3fb1ab45aa14e1858ee4",
+          "email": "cummings@mail.biz",
+          "displayName": "Craig",
+          "organizer": true,
+          "self": true,
+          "resource": false,
+          "optional": false,
+          "responseStatus": "cancelled",
+          "comment": "Amet elit ad incididunt amet et do aute aliquip excepteur excepteur non est. Lorem adipisicing nostrud aliqua proident. Magna cillum cillum sunt et id pariatur in Lorem. Et sunt ut dolore exercitation commodo veniam id. Deserunt aute velit ullamco eu quis sit consequat fugiat incididunt in duis sunt esse duis.",
+          "additionalGuests": 1
+        },
+        {
+          "id": "601e3fb1b39138a6d543a621",
+          "email": "blake@mail.biz",
+          "displayName": "Macias",
+          "organizer": true,
+          "self": false,
+          "resource": true,
+          "optional": false,
+          "responseStatus": "tentative",
+          "comment": "Reprehenderit Lorem anim occaecat sit officia. Lorem minim dolor veniam adipisicing excepteur exercitation Lorem et in cillum reprehenderit ex. Minim amet commodo Lorem sit sunt nulla aliqua ipsum. Deserunt ex minim Lorem pariatur tempor eiusmod culpa aute. Qui proident dolore ullamco et est magna sit enim consectetur. Veniam esse Lorem excepteur esse reprehenderit duis minim.",
+          "additionalGuests": 4
+        },
+        {
+          "id": "601e3fb1033653161dc1f854",
+          "email": "finch@mail.com",
+          "displayName": "Heather",
+          "organizer": true,
+          "self": true,
+          "resource": false,
+          "optional": false,
+          "responseStatus": "confirmed",
+          "comment": "Laborum dolore do Lorem sint. Est cillum eiusmod commodo cillum eiusmod velit veniam velit fugiat laborum nostrud non anim tempor. Eu in adipisicing dolor elit. Ex qui minim officia irure et ullamco.",
+          "additionalGuests": 4
+        }
+      ],
+      "attendeesOmitted": true,
+      "hangoutLink": "http://localhost:3000/event/601e3fb128ffedd6194aea72",
+      "conferenceData": {
+        "createRequest": {
+          "requestId": "601e3fb1be63d8c9f87e04d1",
+          "conferenceSolutionKey": {
+            "type": "601e3fb18b2b4fc2f5e1574e"
+          },
+          "status": {
+            "statusCode": "success"
+          }
+        },
+        "entryPoints": [
+          {
+            "entryPointType": "consectetur",
+            "uri": "sit",
+            "label": "commodo",
+            "pin": "consectetur",
+            "accessCode": "fugiat",
+            "meetingCode": "pariatur",
+            "passcode": "exercitation",
+            "password": "eiusmod"
+          },
+          {
+            "entryPointType": "pariatur",
+            "uri": "cupidatat",
+            "label": "cillum",
+            "pin": "ea",
+            "accessCode": "proident",
+            "meetingCode": "aliqua",
+            "passcode": "enim",
+            "password": "est"
+          }
+        ],
+        "conferenceSolution": {
+          "key": {
+            "type": "fugiat"
+          },
+          "name": "et",
+          "iconUri": "http://placehold.it/32x32"
+        },
+        "conferenceId": "601e3fb1cffcd58f28e9ff92",
+        "signature": "ea",
+        "notes": "sint"
+      },
+      "anyoneCanAddSelf": false,
+      "guestsCanInviteOthers": true,
+      "guestsCanModify": true,
+      "guestsCanSeeOtherGuests": true,
+      "privateCopy": false,
+      "locked": false,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 228
+          },
+          {
+            "method": "email",
+            "minutes": 279
+          },
+          {
+            "method": "sms",
+            "minutes": 911
+          }
+        ]
+      },
+      "source": {
+        "url": "http://Norris.co.uk/",
+        "title": "ullamco"
+      },
+      "attachments": [
+        {
+          "fileUrl": "http://Garza.net/",
+          "title": "mollit",
+          "mimeType": "magna",
+          "iconLink": "http://placehold.it/32x32",
+          "fileId": "601e3fb130ba208e7a46e766"
+        },
+        {
+          "fileUrl": "http://Hancock.io/",
+          "title": "id",
+          "mimeType": "do",
+          "iconLink": "http://placehold.it/32x32",
+          "fileId": "601e3fb191adc08471b32bac"
+        }
+      ]
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "601e3fb1cb8d755c7226a8c6",
+      "id": "601e3fb1dd4f79041c0a73e7",
+      "status": "confirmed",
+      "htmlLink": "http://localhost:3000/event/601e3fb1dd4f79041c0a73e7",
+      "media": [
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "duis",
+          "mimeType": "irure",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb133e4009930331342"
+        },
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "officia",
+          "mimeType": "nostrud",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb1e344878938b1d7f4"
+        },
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "exercitation",
+          "mimeType": "voluptate",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb19b662deaa9f3d982"
+        },
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "nisi",
+          "mimeType": "id",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb1cfb0c8dac0f67af4"
+        }
+      ],
+      "tags": [
+        "danse",
+        "adulte",
+        "expert",
+        "extétieur"
+      ],
+      "created": "2019-11-15T02:48:24+00:00",
+      "updated": "2021-01-11T17:31:58+00:00",
+      "summary": "ullamco deserunt sint nulla",
+      "description": "Qui labore occaecat ea sit do consequat culpa deserunt. Ad magna duis consequat ipsum voluptate ad magna elit ipsum. Commodo in velit cupidatat sit quis. Sit aliquip ullamco dolore magna duis anim incididunt nisi pariatur dolore. Officia amet enim excepteur cillum. Deserunt eiusmod id in ullamco aliquip deserunt amet. Voluptate exercitation excepteur qui consequat nisi.",
+      "location": "666 Fillmore Avenue, Maxville, Louisiana, 1412",
+      "colorId": "brown",
+      "price": "52.07",
+      "creator": {
+        "id": "601e3fb15ffddba37fa1780a",
+        "email": "salas@mail.org",
+        "displayName": "Fisher",
+        "self": true
+      },
+      "organizer": {
+        "id": "601e3fb1a5b50b39f893c4f4",
+        "email": "benson@mail.us",
+        "displayName": "Watkins",
+        "self": true
+      },
+      "start": {
+        "date": "2021-04-10",
+        "dateTime": "2021-01-11T04:01:41+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "end": {
+        "date": "2021-14-19",
+        "dateTime": "2021-01-13T10:48:03+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "endTimeUnspecified": true,
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;COUNT=5;BYDAY=TU,FR"
+      ],
+      "recurringEventId": "601e3fb1870d8af133fa8602",
+      "originalStartTime": {
+        "date": "2021-06-05",
+        "dateTime": "2021-01-21T22:00:24+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "transparency": "opaque",
+      "visibility": "public",
+      "iCalUID": "TODO : SEARCH FORMAT",
+      "sequence": 546,
+      "attendees": [
+        {
+          "id": "601e3fb1edca4c4949178bc5",
+          "email": "evans@mail.me",
+          "displayName": "Francesca",
+          "organizer": false,
+          "self": false,
+          "resource": false,
+          "optional": true,
+          "responseStatus": "cancelled",
+          "comment": "Dolor ad pariatur reprehenderit esse ad. Reprehenderit mollit eu laborum anim incididunt. Commodo ipsum dolor nulla eu ea esse irure duis magna. Voluptate non eiusmod est nostrud duis quis. Enim tempor fugiat Lorem est quis enim magna quis. Amet sint exercitation amet commodo. Incididunt incididunt sunt ea amet laboris culpa sint eiusmod id reprehenderit dolor consectetur laboris irure.",
+          "additionalGuests": 10
+        },
+        {
+          "id": "601e3fb193f27c75974f1da5",
+          "email": "sosa@mail.tv",
+          "displayName": "Berger",
+          "organizer": true,
+          "self": true,
+          "resource": true,
+          "optional": false,
+          "responseStatus": "tentative",
+          "comment": "Labore voluptate dolor nulla elit. Duis sunt eu do commodo in anim culpa qui. Laborum consectetur sit culpa officia cupidatat eu voluptate.",
+          "additionalGuests": 5
+        },
+        {
+          "id": "601e3fb13362984143c5abbf",
+          "email": "chandler@mail.ca",
+          "displayName": "Wiley",
+          "organizer": false,
+          "self": false,
+          "resource": true,
+          "optional": true,
+          "responseStatus": "tentative",
+          "comment": "Occaecat elit nisi tempor aliqua sit. Mollit labore commodo irure ipsum. Commodo magna Lorem anim elit consectetur excepteur in minim nostrud ipsum adipisicing.",
+          "additionalGuests": 7
+        }
+      ],
+      "attendeesOmitted": true,
+      "hangoutLink": "http://localhost:3000/event/601e3fb1dd4f79041c0a73e7",
+      "conferenceData": {
+        "createRequest": {
+          "requestId": "601e3fb187c061de3e12e0ed",
+          "conferenceSolutionKey": {
+            "type": "601e3fb194c2b6c7f95742eb"
+          },
+          "status": {
+            "statusCode": "success"
+          }
+        },
+        "entryPoints": [
+          {
+            "entryPointType": "eiusmod",
+            "uri": "ullamco",
+            "label": "minim",
+            "pin": "ex",
+            "accessCode": "do",
+            "meetingCode": "esse",
+            "passcode": "sunt",
+            "password": "ad"
+          },
+          {
+            "entryPointType": "ea",
+            "uri": "dolore",
+            "label": "elit",
+            "pin": "dolor",
+            "accessCode": "nulla",
+            "meetingCode": "sunt",
+            "passcode": "do",
+            "password": "reprehenderit"
+          },
+          {
+            "entryPointType": "reprehenderit",
+            "uri": "in",
+            "label": "magna",
+            "pin": "mollit",
+            "accessCode": "nostrud",
+            "meetingCode": "cupidatat",
+            "passcode": "dolor",
+            "password": "elit"
+          },
+          {
+            "entryPointType": "dolor",
+            "uri": "adipisicing",
+            "label": "anim",
+            "pin": "ad",
+            "accessCode": "enim",
+            "meetingCode": "sunt",
+            "passcode": "dolor",
+            "password": "tempor"
+          }
+        ],
+        "conferenceSolution": {
+          "key": {
+            "type": "reprehenderit"
+          },
+          "name": "ullamco",
+          "iconUri": "http://placehold.it/32x32"
+        },
+        "conferenceId": "601e3fb139350e6439376d90",
+        "signature": "ipsum",
+        "notes": "anim"
+      },
+      "anyoneCanAddSelf": true,
+      "guestsCanInviteOthers": true,
+      "guestsCanModify": true,
+      "guestsCanSeeOtherGuests": true,
+      "privateCopy": true,
+      "locked": true,
+      "reminders": {
+        "useDefault": true,
+        "overrides": [
+          {
+            "method": "sms",
+            "minutes": 474
+          },
+          {
+            "method": "email",
+            "minutes": 694
+          }
+        ]
+      },
+      "source": {
+        "url": "http://Potter.info/",
+        "title": "eu"
+      },
+      "attachments": [
+        {
+          "fileUrl": "http://Day.biz/",
+          "title": "nostrud",
+          "mimeType": "reprehenderit",
+          "iconLink": "http://placehold.it/32x32",
+          "fileId": "601e3fb1065a7209c7a88edd"
+        },
+        {
+          "fileUrl": "http://Hernandez.biz/",
+          "title": "Lorem",
+          "mimeType": "officia",
+          "iconLink": "http://placehold.it/32x32",
+          "fileId": "601e3fb195b2247320e263fb"
+        },
+        {
+          "fileUrl": "http://Christensen.com/",
+          "title": "est",
+          "mimeType": "amet",
+          "iconLink": "http://placehold.it/32x32",
+          "fileId": "601e3fb19a4a4abc5f7b031f"
+        }
+      ]
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "601e3fb1a68bf2da52a15f70",
+      "id": "601e3fb1f3b365f2096f2abf",
+      "status": "cancelled",
+      "htmlLink": "http://localhost:3000/event/601e3fb1f3b365f2096f2abf",
+      "media": [
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "officia",
+          "mimeType": "pariatur",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb13d82fc1979f457a4"
+        }
+      ],
+      "tags": [
+        "balade",
+        "senior",
+        "expert",
+        "extétieur"
+      ],
+      "created": "2019-03-05T00:41:40+00:00",
+      "updated": "2021-01-02T15:45:16+00:00",
+      "summary": "duis excepteur velit irure",
+      "description": "Amet ipsum adipisicing minim consequat labore esse qui ut. Sint incididunt cupidatat sunt quis est aliquip aute pariatur ut officia laborum consequat. Ad nisi mollit ad cupidatat magna sit aute dolore commodo aute Lorem magna. Sit minim anim labore cupidatat pariatur laborum pariatur Lorem. Eiusmod minim proident laboris aute laboris nisi. Magna nulla Lorem adipisicing esse aliquip aliquip nisi qui pariatur magna ea.",
+      "location": "148 Cheever Place, Ada, Virginia, 2445",
+      "colorId": "brown",
+      "price": "35.95",
+      "creator": {
+        "id": "601e3fb1cdc48b570a7b0c44",
+        "email": "ray@mail.co.uk",
+        "displayName": "Delaney",
+        "self": true
+      },
+      "organizer": {
+        "id": "601e3fb163b8a13db56ac756",
+        "email": "hoffman@mail.net",
+        "displayName": "Wilcox",
+        "self": true
+      },
+      "start": {
+        "date": "2021-31-26",
+        "dateTime": "2021-01-07T19:38:07+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "end": {
+        "date": "2021-22-08",
+        "dateTime": "2021-01-17T05:59:17+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "endTimeUnspecified": false,
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;COUNT=5;BYDAY=TU,FR"
+      ],
+      "recurringEventId": "601e3fb1f1227a3c94c02d51",
+      "originalStartTime": {
+        "date": "2021-30-07",
+        "dateTime": "2021-01-16T13:05:39+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "transparency": "transparent",
+      "visibility": "default",
+      "iCalUID": "TODO : SEARCH FORMAT",
+      "sequence": 574,
+      "attendees": [
+        {
+          "id": "601e3fb1e489538cf5364cf4",
+          "email": "kirby@mail.io",
+          "displayName": "Katheryn",
+          "organizer": true,
+          "self": true,
+          "resource": false,
+          "optional": false,
+          "responseStatus": "tentative",
+          "comment": "Quis proident aliqua consequat amet adipisicing eu eu irure mollit aliqua anim laboris. Nostrud esse aliquip eu irure deserunt amet dolor officia quis ullamco anim enim. Esse duis ut excepteur incididunt. Ut adipisicing nulla laborum et labore. Sit incididunt laborum commodo eu elit laborum irure Lorem et.",
+          "additionalGuests": 3
+        },
+        {
+          "id": "601e3fb1b0ff3cdab2aedad9",
+          "email": "gordon@mail.org",
+          "displayName": "Claudette",
+          "organizer": true,
+          "self": true,
+          "resource": false,
+          "optional": true,
+          "responseStatus": "cancelled",
+          "comment": "Reprehenderit irure do ullamco adipisicing eiusmod aliqua consequat. Est ad ut minim est labore. Occaecat ad ut incididunt aliquip nostrud non ea occaecat enim consectetur dolore amet sit. Tempor elit deserunt ea aliqua ut qui non ipsum. Eiusmod proident cillum in do cillum consectetur. Ipsum velit sint Lorem consequat. Cillum culpa adipisicing ea non ex deserunt nostrud aute minim irure.",
+          "additionalGuests": 8
+        },
+        {
+          "id": "601e3fb1290aa2a6d63af614",
+          "email": "hudson@mail.us",
+          "displayName": "Paul",
+          "organizer": false,
+          "self": false,
+          "resource": false,
+          "optional": true,
+          "responseStatus": "cancelled",
+          "comment": "Pariatur cupidatat labore est ea exercitation. Tempor occaecat cillum ex do dolor est nulla ipsum ullamco sit sint ut esse qui. Adipisicing anim proident veniam Lorem in irure culpa esse velit enim cillum enim occaecat. Irure amet esse cillum laborum proident pariatur consequat pariatur tempor enim laboris cupidatat reprehenderit. Elit nostrud quis aliqua magna sunt elit est sunt ea sunt excepteur.",
+          "additionalGuests": 10
+        },
+        {
+          "id": "601e3fb1a7c79066db5a7e98",
+          "email": "aguirre@mail.me",
+          "displayName": "Rosetta",
+          "organizer": true,
+          "self": false,
+          "resource": false,
+          "optional": true,
+          "responseStatus": "confirmed",
+          "comment": "Ex amet qui pariatur fugiat et. Cillum sunt culpa ut magna proident proident mollit deserunt labore incididunt exercitation sint cillum. Et culpa ipsum tempor consequat mollit laborum aliquip qui Lorem magna aute adipisicing culpa.",
+          "additionalGuests": 3
+        },
+        {
+          "id": "601e3fb178e70c3a465937f3",
+          "email": "robbins@mail.tv",
+          "displayName": "Marva",
+          "organizer": true,
+          "self": true,
+          "resource": true,
+          "optional": true,
+          "responseStatus": "tentative",
+          "comment": "Aliqua sit dolor amet do nulla ipsum esse. Mollit excepteur nostrud esse dolor ea cupidatat id. Velit commodo adipisicing elit adipisicing cillum sunt duis ad elit laboris tempor cupidatat. In est est sunt excepteur.",
+          "additionalGuests": 9
+        },
+        {
+          "id": "601e3fb12ab6170fb9ddb090",
+          "email": "meyers@mail.ca",
+          "displayName": "Thompson",
+          "organizer": true,
+          "self": true,
+          "resource": false,
+          "optional": false,
+          "responseStatus": "cancelled",
+          "comment": "Proident cillum magna pariatur irure cupidatat culpa elit magna. Enim dolor excepteur est elit Lorem eu id est ut consectetur ea veniam qui. Veniam Lorem incididunt consequat nisi id. Voluptate deserunt non cupidatat labore sit fugiat exercitation pariatur.",
+          "additionalGuests": 7
+        },
+        {
+          "id": "601e3fb10570d4f23f2e6a1d",
+          "email": "clemons@mail.info",
+          "displayName": "Alyson",
+          "organizer": true,
+          "self": true,
+          "resource": true,
+          "optional": false,
+          "responseStatus": "tentative",
+          "comment": "Ad laboris id ea aliquip qui. Enim Lorem pariatur magna aliqua qui veniam. Enim fugiat fugiat nostrud nulla. Et aliquip nulla labore sit cupidatat deserunt sit deserunt do mollit mollit anim amet. Minim eiusmod tempor nulla ut occaecat.",
+          "additionalGuests": 4
+        },
+        {
+          "id": "601e3fb1ee527a38c07788fd",
+          "email": "cochran@mail.biz",
+          "displayName": "Schroeder",
+          "organizer": false,
+          "self": true,
+          "resource": true,
+          "optional": true,
+          "responseStatus": "cancelled",
+          "comment": "Velit laborum ullamco enim nisi eu ex irure enim nostrud anim veniam non esse. Elit occaecat veniam proident sint id tempor veniam in est dolor fugiat. Laboris consectetur ea irure do. Ut ut velit ex aliqua veniam id commodo. Sint cillum magna sit adipisicing nostrud nisi occaecat qui Lorem. Sit eiusmod do laborum ut culpa reprehenderit qui dolore incididunt.",
+          "additionalGuests": 6
+        },
+        {
+          "id": "601e3fb1bb77f20c04f3e731",
+          "email": "willis@mail.biz",
+          "displayName": "Tabatha",
+          "organizer": false,
+          "self": false,
+          "resource": true,
+          "optional": false,
+          "responseStatus": "tentative",
+          "comment": "Anim dolore ipsum eu ut Lorem ad id consequat. Ea cillum ipsum id do aliquip ex cupidatat laborum. Ullamco minim sit in dolor sit ea culpa excepteur quis.",
+          "additionalGuests": 3
+        }
+      ],
+      "attendeesOmitted": true,
+      "hangoutLink": "http://localhost:3000/event/601e3fb1f3b365f2096f2abf",
+      "conferenceData": {
+        "createRequest": {
+          "requestId": "601e3fb121ea6895d046871f",
+          "conferenceSolutionKey": {
+            "type": "601e3fb1f9e117f872f33b6f"
+          },
+          "status": {
+            "statusCode": "success"
+          }
+        },
+        "entryPoints": [
+          {
+            "entryPointType": "proident",
+            "uri": "nisi",
+            "label": "nisi",
+            "pin": "anim",
+            "accessCode": "irure",
+            "meetingCode": "officia",
+            "passcode": "aliquip",
+            "password": "non"
+          },
+          {
+            "entryPointType": "Lorem",
+            "uri": "enim",
+            "label": "veniam",
+            "pin": "minim",
+            "accessCode": "duis",
+            "meetingCode": "nostrud",
+            "passcode": "fugiat",
+            "password": "ipsum"
+          },
+          {
+            "entryPointType": "dolor",
+            "uri": "veniam",
+            "label": "minim",
+            "pin": "exercitation",
+            "accessCode": "est",
+            "meetingCode": "mollit",
+            "passcode": "sint",
+            "password": "magna"
+          }
+        ],
+        "conferenceSolution": {
+          "key": {
+            "type": "amet"
+          },
+          "name": "nisi",
+          "iconUri": "http://placehold.it/32x32"
+        },
+        "conferenceId": "601e3fb1aab9473a15853752",
+        "signature": "labore",
+        "notes": "excepteur"
+      },
+      "anyoneCanAddSelf": true,
+      "guestsCanInviteOthers": true,
+      "guestsCanModify": true,
+      "guestsCanSeeOtherGuests": false,
+      "privateCopy": false,
+      "locked": true,
+      "reminders": {
+        "useDefault": true,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 768
+          },
+          {
+            "method": "popup",
+            "minutes": 96
+          }
+        ]
+      },
+      "source": {
+        "url": "http://Page.com/",
+        "title": "elit"
+      },
+      "attachments": [
+        {
+          "fileUrl": "http://Jordan.co.uk/",
+          "title": "eiusmod",
+          "mimeType": "labore",
+          "iconLink": "http://placehold.it/32x32",
+          "fileId": "601e3fb147baf89fcf003ffd"
+        },
+        {
+          "fileUrl": "http://Hammond.net/",
+          "title": "enim",
+          "mimeType": "minim",
+          "iconLink": "http://placehold.it/32x32",
+          "fileId": "601e3fb13417d1ca9cec6d29"
+        }
+      ]
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "601e3fb1acf519bf4e7db426",
+      "id": "601e3fb132d8f022417465b9",
+      "status": "cancelled",
+      "htmlLink": "http://localhost:3000/event/601e3fb132d8f022417465b9",
+      "media": [
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "velit",
+          "mimeType": "sint",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb1365c372a5b364783"
+        },
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "incididunt",
+          "mimeType": "commodo",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb1e50b519cb618abf3"
+        }
+      ],
+      "tags": [
+        "balade",
+        "adulte",
+        "expert",
+        "intérieur"
+      ],
+      "created": "2016-02-19T02:46:52+00:00",
+      "updated": "2021-01-26T17:15:12+00:00",
+      "summary": "qui reprehenderit magna dolor",
+      "description": "Veniam mollit ipsum ipsum do irure ullamco anim est nostrud ad deserunt enim esse. Nisi ullamco pariatur fugiat irure do eu tempor et nisi cupidatat velit. Cillum magna mollit consequat laboris laboris. Labore exercitation ullamco magna amet exercitation. Consectetur amet pariatur anim cupidatat est dolor. Dolore aliquip exercitation amet excepteur sint occaecat nostrud est aliqua eu ut sint eu.",
+      "location": "222 Vandam Street, Waterview, Utah, 7418",
+      "colorId": "blue",
+      "price": "66.58",
+      "creator": {
+        "id": "601e3fb18c0b7dde4219fc56",
+        "email": "goodman@mail.io",
+        "displayName": "Golden",
+        "self": false
+      },
+      "organizer": {
+        "id": "601e3fb1fdf7973d23b8ef5f",
+        "email": "nicholson@mail.org",
+        "displayName": "Gonzales",
+        "self": true
+      },
+      "start": {
+        "date": "2021-39-08",
+        "dateTime": "2021-02-02T13:12:58+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "end": {
+        "date": "2021-28-24",
+        "dateTime": "2021-01-08T07:00:34+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "endTimeUnspecified": true,
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;COUNT=5;BYDAY=TU,FR"
+      ],
+      "recurringEventId": "601e3fb16767385c2e9c0325",
+      "originalStartTime": {
+        "date": "2021-49-01",
+        "dateTime": "2021-02-02T15:53:29+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "transparency": "transparent",
+      "visibility": "private",
+      "iCalUID": "TODO : SEARCH FORMAT",
+      "sequence": 395,
+      "attendees": [
+        {
+          "id": "601e3fb1efb2f071046d094f",
+          "email": "harding@mail.us",
+          "displayName": "Warren",
+          "organizer": false,
+          "self": false,
+          "resource": false,
+          "optional": false,
+          "responseStatus": "confirmed",
+          "comment": "Minim aute in magna Lorem voluptate duis reprehenderit ipsum excepteur laborum exercitation. Quis enim in nostrud sint sunt aute magna aliquip do excepteur officia. Consectetur laboris id adipisicing ex duis aliquip aute velit irure commodo nostrud nulla ipsum in. Proident commodo consectetur dolore veniam voluptate anim id proident elit. Quis aliquip in adipisicing proident reprehenderit reprehenderit eiusmod nostrud fugiat ad do veniam ullamco reprehenderit. Deserunt Lorem ut ipsum voluptate in eu ex. Dolore aliquip et anim aliqua.",
+          "additionalGuests": 3
+        }
+      ],
+      "attendeesOmitted": false,
+      "hangoutLink": "http://localhost:3000/event/601e3fb132d8f022417465b9",
+      "conferenceData": {
+        "createRequest": {
+          "requestId": "601e3fb1f3ce51fea0b48638",
+          "conferenceSolutionKey": {
+            "type": "601e3fb19dc25e703ce180e3"
+          },
+          "status": {
+            "statusCode": "success"
+          }
+        },
+        "entryPoints": [],
+        "conferenceSolution": {
+          "key": {
+            "type": "incididunt"
+          },
+          "name": "consectetur",
+          "iconUri": "http://placehold.it/32x32"
+        },
+        "conferenceId": "601e3fb18d21edce019e44fd",
+        "signature": "fugiat",
+        "notes": "proident"
+      },
+      "anyoneCanAddSelf": false,
+      "guestsCanInviteOthers": false,
+      "guestsCanModify": false,
+      "guestsCanSeeOtherGuests": false,
+      "privateCopy": true,
+      "locked": false,
+      "reminders": {
+        "useDefault": true,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 494
+          },
+          {
+            "method": "popup",
+            "minutes": 597
+          },
+          {
+            "method": "popup",
+            "minutes": 396
+          },
+          {
+            "method": "email",
+            "minutes": 45
+          }
+        ]
+      },
+      "source": {
+        "url": "http://Buck.me/",
+        "title": "ex"
+      },
+      "attachments": [
+        {
+          "fileUrl": "http://Lott.tv/",
+          "title": "laboris",
+          "mimeType": "mollit",
+          "iconLink": "http://placehold.it/32x32",
+          "fileId": "601e3fb13a37201b83aee0c9"
+        },
+        {
+          "fileUrl": "http://Hurley.ca/",
+          "title": "ut",
+          "mimeType": "commodo",
+          "iconLink": "http://placehold.it/32x32",
+          "fileId": "601e3fb14a29241b085bced2"
+        },
+        {
+          "fileUrl": "http://Foley.info/",
+          "title": "tempor",
+          "mimeType": "magna",
+          "iconLink": "http://placehold.it/32x32",
+          "fileId": "601e3fb190a0f1e321e85b38"
+        },
+        {
+          "fileUrl": "http://Joseph.biz/",
+          "title": "sint",
+          "mimeType": "enim",
+          "iconLink": "http://placehold.it/32x32",
+          "fileId": "601e3fb1d82ed59b7d89bd79"
+        }
+      ]
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "601e3fb1332819ed4992fc80",
+      "id": "601e3fb10fdd3f1d57d05a6f",
+      "status": "cancelled",
+      "htmlLink": "http://localhost:3000/event/601e3fb10fdd3f1d57d05a6f",
+      "media": [
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "deserunt",
+          "mimeType": "ad",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb122ed671840fded0e"
+        }
+      ],
+      "tags": [
+        "foot",
+        "bébé",
+        "débutant",
+        "extétieur"
+      ],
+      "created": "2017-11-18T20:06:27+00:00",
+      "updated": "2021-01-20T00:37:56+00:00",
+      "summary": "sunt et reprehenderit occaecat",
+      "description": "Et nostrud eiusmod commodo dolor. Magna cupidatat enim elit proident laborum. Tempor in cillum do et adipisicing occaecat Lorem ex ut id labore. Nostrud quis sunt cupidatat nisi ad minim anim aute culpa incididunt eu.",
+      "location": "779 Bushwick Court, Walton, Arkansas, 3870",
+      "colorId": "green",
+      "price": "56.96",
+      "creator": {
+        "id": "601e3fb1b50d78957ad8360a",
+        "email": "rivas@mail.biz",
+        "displayName": "Lila",
+        "self": true
+      },
+      "organizer": {
+        "id": "601e3fb132b8b2fa6d53d8a2",
+        "email": "cervantes@mail.com",
+        "displayName": "Delacruz",
+        "self": true
+      },
+      "start": {
+        "date": "2021-40-03",
+        "dateTime": "2021-01-13T09:24:33+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "end": {
+        "date": "2021-42-12",
+        "dateTime": "2021-02-06T02:44:32+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "endTimeUnspecified": false,
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;COUNT=5;BYDAY=TU,FR"
+      ],
+      "recurringEventId": "601e3fb12f0eaae809b1c200",
+      "originalStartTime": {
+        "date": "2021-39-14",
+        "dateTime": "2021-01-05T09:32:46+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "transparency": "transparent",
+      "visibility": "confidential",
+      "iCalUID": "TODO : SEARCH FORMAT",
+      "sequence": 238,
+      "attendees": [
+        {
+          "id": "601e3fb11970e6f552d148f0",
+          "email": "gregory@mail.co.uk",
+          "displayName": "Marquita",
+          "organizer": false,
+          "self": false,
+          "resource": false,
+          "optional": true,
+          "responseStatus": "confirmed",
+          "comment": "Esse id tempor nisi enim. Nulla elit anim consequat eiusmod sit ut enim dolore et aliquip ea nulla. Sit laboris velit qui incididunt ullamco laboris ut ad sint consequat. Est ipsum Lorem esse cillum. Ad in ipsum pariatur tempor cillum qui ad tempor sit ad non. Eu duis consequat quis pariatur proident duis ullamco incididunt non laboris. Culpa non enim reprehenderit proident cupidatat est.",
+          "additionalGuests": 1
+        }
+      ],
+      "attendeesOmitted": true,
+      "hangoutLink": "http://localhost:3000/event/601e3fb10fdd3f1d57d05a6f",
+      "conferenceData": {
+        "createRequest": {
+          "requestId": "601e3fb126055b2cfcb20d79",
+          "conferenceSolutionKey": {
+            "type": "601e3fb1ba264b10c048f77e"
+          },
+          "status": {
+            "statusCode": "failure"
+          }
+        },
+        "entryPoints": [
+          {
+            "entryPointType": "proident",
+            "uri": "mollit",
+            "label": "et",
+            "pin": "occaecat",
+            "accessCode": "officia",
+            "meetingCode": "id",
+            "passcode": "duis",
+            "password": "exercitation"
+          },
+          {
+            "entryPointType": "ut",
+            "uri": "aute",
+            "label": "cupidatat",
+            "pin": "voluptate",
+            "accessCode": "consectetur",
+            "meetingCode": "consequat",
+            "passcode": "aliquip",
+            "password": "officia"
+          },
+          {
+            "entryPointType": "esse",
+            "uri": "ad",
+            "label": "pariatur",
+            "pin": "voluptate",
+            "accessCode": "in",
+            "meetingCode": "et",
+            "passcode": "laborum",
+            "password": "exercitation"
+          }
+        ],
+        "conferenceSolution": {
+          "key": {
+            "type": "ullamco"
+          },
+          "name": "ut",
+          "iconUri": "http://placehold.it/32x32"
+        },
+        "conferenceId": "601e3fb1d97ee4d9d6235daa",
+        "signature": "aliquip",
+        "notes": "est"
+      },
+      "anyoneCanAddSelf": true,
+      "guestsCanInviteOthers": true,
+      "guestsCanModify": false,
+      "guestsCanSeeOtherGuests": false,
+      "privateCopy": true,
+      "locked": false,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "popup",
+            "minutes": 371
+          },
+          {
+            "method": "sms",
+            "minutes": 798
+          }
+        ]
+      },
+      "source": {
+        "url": "http://Nixon.net/",
+        "title": "fugiat"
+      },
+      "attachments": []
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "601e3fb140d65b2035566d28",
+      "id": "601e3fb107bb82758b9c16af",
+      "status": "tentative",
+      "htmlLink": "http://localhost:3000/event/601e3fb107bb82758b9c16af",
+      "media": [
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "veniam",
+          "mimeType": "exercitation",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb1bb6a7d8ff4e214ae"
+        },
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "consequat",
+          "mimeType": "officia",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb14d84dda6b68f30fd"
+        },
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "labore",
+          "mimeType": "laboris",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb1efe4dee7058ff217"
+        },
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "veniam",
+          "mimeType": "velit",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb1c5acabde0c69fb2c"
+        }
+      ],
+      "tags": [
+        "balade",
+        "adulte",
+        "expert",
+        "intérieur"
+      ],
+      "created": "2015-04-19T00:05:56+00:00",
+      "updated": "2021-02-04T22:45:55+00:00",
+      "summary": "Lorem amet irure ullamco",
+      "description": "Mollit duis quis Lorem ea minim adipisicing ipsum sint magna adipisicing qui consectetur culpa duis. Pariatur exercitation fugiat aute veniam sit ipsum laborum aliquip sint. Adipisicing excepteur anim velit reprehenderit mollit cillum excepteur minim. Non eiusmod excepteur ut ea incididunt ad et in cupidatat Lorem elit culpa.",
+      "location": "544 Sutter Avenue, Villarreal, Alabama, 5825",
+      "colorId": "green",
+      "price": "13.51",
+      "creator": {
+        "id": "601e3fb19a852f13aba36583",
+        "email": "delacruz@mail.io",
+        "displayName": "Hodges",
+        "self": false
+      },
+      "organizer": {
+        "id": "601e3fb16149c26f6d63dd6d",
+        "email": "robertson@mail.org",
+        "displayName": "Aida",
+        "self": true
+      },
+      "start": {
+        "date": "2021-21-24",
+        "dateTime": "2021-02-03T05:28:06+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "end": {
+        "date": "2021-15-30",
+        "dateTime": "2021-01-25T22:40:29+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "endTimeUnspecified": true,
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;COUNT=5;BYDAY=TU,FR"
+      ],
+      "recurringEventId": "601e3fb161fba6b4f4b0f2f8",
+      "originalStartTime": {
+        "date": "2021-07-05",
+        "dateTime": "2021-01-04T06:44:35+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "transparency": "transparent",
+      "visibility": "public",
+      "iCalUID": "TODO : SEARCH FORMAT",
+      "sequence": 613,
+      "attendees": [
+        {
+          "id": "601e3fb1511c3168f4815c3b",
+          "email": "duran@mail.us",
+          "displayName": "Kelley",
+          "organizer": true,
+          "self": true,
+          "resource": true,
+          "optional": true,
+          "responseStatus": "confirmed",
+          "comment": "Culpa quis fugiat aliqua fugiat nostrud ullamco ad Lorem non laboris ipsum. Veniam sunt ad mollit sint deserunt. Occaecat exercitation fugiat eiusmod ipsum duis consectetur incididunt velit labore est. Exercitation qui cupidatat nostrud eiusmod quis Lorem eu Lorem. Laborum eiusmod quis ad laboris ex dolore id quis. Anim non sunt sint id. Non magna officia ex eu tempor veniam cillum Lorem excepteur dolore.",
+          "additionalGuests": 3
+        },
+        {
+          "id": "601e3fb18ed3829a9ff0a48a",
+          "email": "berg@mail.me",
+          "displayName": "Compton",
+          "organizer": true,
+          "self": false,
+          "resource": true,
+          "optional": false,
+          "responseStatus": "tentative",
+          "comment": "Cillum amet sint occaecat et consequat ea enim magna commodo. Consequat dolore et do occaecat exercitation nulla ut voluptate cillum mollit. Labore non in duis laboris ea laboris enim anim nostrud. Anim mollit ea adipisicing ut. Aute ad id dolor Lorem. Cillum id aliquip in ad aliquip consequat consectetur.",
+          "additionalGuests": 1
+        },
+        {
+          "id": "601e3fb1b6af27a7b00bdb83",
+          "email": "douglas@mail.tv",
+          "displayName": "Gale",
+          "organizer": true,
+          "self": true,
+          "resource": false,
+          "optional": false,
+          "responseStatus": "confirmed",
+          "comment": "Magna veniam reprehenderit do aliqua minim quis mollit reprehenderit irure esse aute aute. Quis pariatur eiusmod tempor id. Laborum ad qui irure laboris consectetur aute adipisicing incididunt. Id laborum adipisicing magna ea do reprehenderit.",
+          "additionalGuests": 0
+        }
+      ],
+      "attendeesOmitted": true,
+      "hangoutLink": "http://localhost:3000/event/601e3fb107bb82758b9c16af",
+      "conferenceData": {
+        "createRequest": {
+          "requestId": "601e3fb1a84ebe92c056ad94",
+          "conferenceSolutionKey": {
+            "type": "601e3fb178518f9ff6057dd7"
+          },
+          "status": {
+            "statusCode": "success"
+          }
+        },
+        "entryPoints": [
+          {
+            "entryPointType": "fugiat",
+            "uri": "culpa",
+            "label": "dolore",
+            "pin": "voluptate",
+            "accessCode": "commodo",
+            "meetingCode": "ad",
+            "passcode": "incididunt",
+            "password": "ullamco"
+          }
+        ],
+        "conferenceSolution": {
+          "key": {
+            "type": "et"
+          },
+          "name": "nostrud",
+          "iconUri": "http://placehold.it/32x32"
+        },
+        "conferenceId": "601e3fb1656b51f1f52a5162",
+        "signature": "dolore",
+        "notes": "elit"
+      },
+      "anyoneCanAddSelf": true,
+      "guestsCanInviteOthers": false,
+      "guestsCanModify": false,
+      "guestsCanSeeOtherGuests": false,
+      "privateCopy": false,
+      "locked": false,
+      "reminders": {
+        "useDefault": false,
+        "overrides": []
+      },
+      "source": {
+        "url": "http://Anderson.ca/",
+        "title": "eu"
+      },
+      "attachments": [
+        {
+          "fileUrl": "http://Rivers.info/",
+          "title": "consectetur",
+          "mimeType": "incididunt",
+          "iconLink": "http://placehold.it/32x32",
+          "fileId": "601e3fb15f90793d4b19810e"
+        },
+        {
+          "fileUrl": "http://Poole.biz/",
+          "title": "dolor",
+          "mimeType": "deserunt",
+          "iconLink": "http://placehold.it/32x32",
+          "fileId": "601e3fb18b61214f92f265f8"
+        },
+        {
+          "fileUrl": "http://Robinson.biz/",
+          "title": "nulla",
+          "mimeType": "magna",
+          "iconLink": "http://placehold.it/32x32",
+          "fileId": "601e3fb1df82c017e4707791"
+        },
+        {
+          "fileUrl": "http://Larson.com/",
+          "title": "voluptate",
+          "mimeType": "sunt",
+          "iconLink": "http://placehold.it/32x32",
+          "fileId": "601e3fb15b505644a226ef6c"
+        }
+      ]
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "601e3fb10acdff5e35680425",
+      "id": "601e3fb19803831d01d34074",
+      "status": "confirmed",
+      "htmlLink": "http://localhost:3000/event/601e3fb19803831d01d34074",
+      "media": [
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "excepteur",
+          "mimeType": "occaecat",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb15854dacd89d7e787"
+        },
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "anim",
+          "mimeType": "non",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb13cb8f427a20366b5"
+        }
+      ],
+      "tags": [
+        "balade",
+        "ado",
+        "expert",
+        "intérieur"
+      ],
+      "created": "2017-04-17T07:26:41+00:00",
+      "updated": "2021-01-25T05:13:39+00:00",
+      "summary": "fugiat esse enim consectetur",
+      "description": "Do incididunt et non ad eiusmod nostrud aute dolor duis fugiat esse exercitation. Amet eiusmod sint cupidatat quis commodo commodo et. Duis laborum minim sint est ipsum ullamco. Deserunt velit elit commodo incididunt incididunt in sit sit commodo.",
+      "location": "851 Ashford Street, Blackgum, New Hampshire, 8171",
+      "colorId": "blue",
+      "price": "76.29",
+      "creator": {
+        "id": "601e3fb157acd3a6781e0e16",
+        "email": "kaufman@mail.co.uk",
+        "displayName": "Hudson",
+        "self": true
+      },
+      "organizer": {
+        "id": "601e3fb180a771985efc951d",
+        "email": "hinton@mail.net",
+        "displayName": "Gilda",
+        "self": false
+      },
+      "start": {
+        "date": "2021-13-07",
+        "dateTime": "2021-01-15T09:19:12+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "end": {
+        "date": "2021-48-28",
+        "dateTime": "2021-01-23T00:04:14+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "endTimeUnspecified": false,
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;COUNT=5;BYDAY=TU,FR"
+      ],
+      "recurringEventId": "601e3fb1c06802b3a35a6a14",
+      "originalStartTime": {
+        "date": "2021-26-03",
+        "dateTime": "2021-01-16T17:09:21+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "transparency": "transparent",
+      "visibility": "default",
+      "iCalUID": "TODO : SEARCH FORMAT",
+      "sequence": 201,
+      "attendees": [
+        {
+          "id": "601e3fb15973c1caa9127b5a",
+          "email": "vega@mail.io",
+          "displayName": "Latasha",
+          "organizer": false,
+          "self": true,
+          "resource": false,
+          "optional": true,
+          "responseStatus": "tentative",
+          "comment": "Fugiat officia et duis quis nostrud. Consequat ea adipisicing commodo dolor occaecat. Labore amet officia ex pariatur anim culpa ullamco ipsum labore est est.",
+          "additionalGuests": 3
+        },
+        {
+          "id": "601e3fb1465a27eb556299b4",
+          "email": "battle@mail.org",
+          "displayName": "Blanchard",
+          "organizer": false,
+          "self": true,
+          "resource": false,
+          "optional": true,
+          "responseStatus": "confirmed",
+          "comment": "Dolor ea exercitation duis qui ullamco veniam ut. Ad nisi fugiat tempor fugiat culpa aliqua nulla mollit enim sunt ipsum qui cillum nulla. Culpa ad est ipsum commodo pariatur occaecat amet sint. Laborum aliquip non in aliquip deserunt ea dolor commodo. Cupidatat pariatur voluptate laboris elit. Magna nostrud nisi cillum in consectetur sunt sint. Anim et quis culpa esse duis sit laborum eiusmod excepteur.",
+          "additionalGuests": 10
+        },
+        {
+          "id": "601e3fb1031c776937aeb71d",
+          "email": "crane@mail.us",
+          "displayName": "Crosby",
+          "organizer": true,
+          "self": true,
+          "resource": false,
+          "optional": false,
+          "responseStatus": "cancelled",
+          "comment": "Consequat pariatur consectetur dolore anim. Consectetur exercitation quis incididunt sit do consequat mollit anim quis aute tempor sint adipisicing. Irure eiusmod sunt ut fugiat dolor deserunt eiusmod pariatur eiusmod Lorem aute elit velit. Elit sunt non consectetur ex incididunt culpa occaecat ad do sit commodo.",
+          "additionalGuests": 3
+        },
+        {
+          "id": "601e3fb166b6eecd42c4ddbc",
+          "email": "lancaster@mail.me",
+          "displayName": "Maggie",
+          "organizer": false,
+          "self": true,
+          "resource": false,
+          "optional": false,
+          "responseStatus": "confirmed",
+          "comment": "Nisi consequat veniam eu excepteur. Quis aliqua est nulla laboris exercitation irure irure. Laboris Lorem id aliquip ex pariatur sunt laborum incididunt commodo. Non voluptate pariatur amet mollit velit labore labore. Sunt adipisicing et laboris ex. Cillum et amet aliquip ad ut sint quis occaecat non magna nisi proident irure cillum.",
+          "additionalGuests": 8
+        },
+        {
+          "id": "601e3fb1257146d43fa4e248",
+          "email": "lang@mail.tv",
+          "displayName": "Tabitha",
+          "organizer": false,
+          "self": true,
+          "resource": false,
+          "optional": false,
+          "responseStatus": "cancelled",
+          "comment": "Esse eu voluptate occaecat ipsum. Amet adipisicing ex anim consectetur sit velit tempor cillum. Non enim elit amet proident mollit elit labore occaecat minim sint nisi in. Qui excepteur voluptate minim nisi pariatur veniam magna eu mollit velit ea aute. Anim ut laboris cupidatat cupidatat dolore id.",
+          "additionalGuests": 0
+        },
+        {
+          "id": "601e3fb1c566a8aac2e366f5",
+          "email": "mckinney@mail.ca",
+          "displayName": "Colette",
+          "organizer": true,
+          "self": false,
+          "resource": true,
+          "optional": true,
+          "responseStatus": "cancelled",
+          "comment": "Do id culpa esse nostrud consectetur consectetur ea eiusmod velit nisi eu nostrud. Exercitation fugiat nisi anim irure magna consequat eu occaecat est Lorem. Voluptate ex cupidatat dolore elit reprehenderit eu veniam pariatur sunt magna.",
+          "additionalGuests": 5
+        },
+        {
+          "id": "601e3fb170d42dbd7694be35",
+          "email": "graves@mail.info",
+          "displayName": "Jordan",
+          "organizer": false,
+          "self": false,
+          "resource": false,
+          "optional": true,
+          "responseStatus": "confirmed",
+          "comment": "Culpa excepteur incididunt aute deserunt. Sint ullamco irure ea mollit pariatur dolor est sunt ut excepteur aliqua laboris. Aliquip consequat est laboris ipsum aute ea proident. Proident anim voluptate ex exercitation ut occaecat voluptate ex.",
+          "additionalGuests": 10
+        },
+        {
+          "id": "601e3fb11e75e72debbab153",
+          "email": "mcclain@mail.biz",
+          "displayName": "Tyler",
+          "organizer": true,
+          "self": true,
+          "resource": true,
+          "optional": false,
+          "responseStatus": "cancelled",
+          "comment": "Aliqua laboris ea irure esse. Est occaecat nulla enim est. Magna ad officia ex non eiusmod et veniam exercitation est pariatur ea quis ea. Ullamco qui veniam officia reprehenderit laboris consequat excepteur nostrud mollit sit aliquip magna in Lorem.",
+          "additionalGuests": 9
+        },
+        {
+          "id": "601e3fb17d2a2253cf3f1017",
+          "email": "dorsey@mail.biz",
+          "displayName": "Gallegos",
+          "organizer": true,
+          "self": true,
+          "resource": false,
+          "optional": true,
+          "responseStatus": "cancelled",
+          "comment": "Deserunt id est labore ea fugiat tempor pariatur deserunt nostrud exercitation ad Lorem. Ea do laborum voluptate ipsum consectetur eu officia reprehenderit incididunt officia consequat sit. Adipisicing id aute enim anim. Sit cupidatat Lorem aliquip ad qui ullamco ad exercitation amet minim. Deserunt minim do sunt duis consectetur. Excepteur commodo occaecat non ut magna fugiat irure aliquip proident veniam esse irure officia ipsum.",
+          "additionalGuests": 7
+        }
+      ],
+      "attendeesOmitted": true,
+      "hangoutLink": "http://localhost:3000/event/601e3fb19803831d01d34074",
+      "conferenceData": {
+        "createRequest": {
+          "requestId": "601e3fb19a8d7411dbcd0d15",
+          "conferenceSolutionKey": {
+            "type": "601e3fb1c8bbc59339d255f3"
+          },
+          "status": {
+            "statusCode": "failure"
+          }
+        },
+        "entryPoints": [
+          {
+            "entryPointType": "et",
+            "uri": "esse",
+            "label": "pariatur",
+            "pin": "exercitation",
+            "accessCode": "labore",
+            "meetingCode": "pariatur",
+            "passcode": "sit",
+            "password": "magna"
+          }
+        ],
+        "conferenceSolution": {
+          "key": {
+            "type": "mollit"
+          },
+          "name": "reprehenderit",
+          "iconUri": "http://placehold.it/32x32"
+        },
+        "conferenceId": "601e3fb1a861c1e0ad9b2158",
+        "signature": "ea",
+        "notes": "ex"
+      },
+      "anyoneCanAddSelf": false,
+      "guestsCanInviteOthers": false,
+      "guestsCanModify": false,
+      "guestsCanSeeOtherGuests": true,
+      "privateCopy": false,
+      "locked": true,
+      "reminders": {
+        "useDefault": true,
+        "overrides": [
+          {
+            "method": "sms",
+            "minutes": 974
+          },
+          {
+            "method": "popup",
+            "minutes": 976
+          },
+          {
+            "method": "email",
+            "minutes": 722
+          },
+          {
+            "method": "sms",
+            "minutes": 81
+          }
+        ]
+      },
+      "source": {
+        "url": "http://Santiago.com/",
+        "title": "do"
+      },
+      "attachments": [
+        {
+          "fileUrl": "http://Baird.co.uk/",
+          "title": "officia",
+          "mimeType": "reprehenderit",
+          "iconLink": "http://placehold.it/32x32",
+          "fileId": "601e3fb10a5c204ffca76b4a"
+        },
+        {
+          "fileUrl": "http://Barnett.net/",
+          "title": "sunt",
+          "mimeType": "commodo",
+          "iconLink": "http://placehold.it/32x32",
+          "fileId": "601e3fb167cd73f83d9ffb21"
+        }
+      ]
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "601e3fb116a6376022ab55d4",
+      "id": "601e3fb14f592a9cc5f91c5d",
+      "status": "cancelled",
+      "htmlLink": "http://localhost:3000/event/601e3fb14f592a9cc5f91c5d",
+      "media": [
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "commodo",
+          "mimeType": "cupidatat",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb154cc7d8d5f1ab26d"
+        },
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "et",
+          "mimeType": "laboris",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb17d9a97360c59a9f4"
+        },
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "proident",
+          "mimeType": "labore",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb1a7f794afb3aa820b"
+        },
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "pariatur",
+          "mimeType": "anim",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb17f2a3a6815604198"
+        }
+      ],
+      "tags": [
+        "yoga",
+        "senior",
+        "expert",
+        "intérieur"
+      ],
+      "created": "2018-09-14T02:23:37+00:00",
+      "updated": "2021-01-08T22:58:25+00:00",
+      "summary": "cillum pariatur ea proident",
+      "description": "Aliqua elit exercitation veniam amet ut proident aliquip veniam officia adipisicing do nisi. Adipisicing tempor officia exercitation ipsum in duis minim voluptate. Veniam aliquip est mollit nisi sint ex commodo dolor aute consequat commodo.",
+      "location": "422 Beayer Place, Fontanelle, Montana, 5944",
+      "colorId": "blue",
+      "price": "7.75",
+      "creator": {
+        "id": "601e3fb168a55dff7b68d0f6",
+        "email": "terry@mail.io",
+        "displayName": "Burke",
+        "self": true
+      },
+      "organizer": {
+        "id": "601e3fb16a741f6a84627032",
+        "email": "fry@mail.org",
+        "displayName": "Mooney",
+        "self": false
+      },
+      "start": {
+        "date": "2021-30-02",
+        "dateTime": "2021-01-27T10:45:28+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "end": {
+        "date": "2021-14-22",
+        "dateTime": "2021-02-01T11:54:11+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "endTimeUnspecified": false,
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;COUNT=5;BYDAY=TU,FR"
+      ],
+      "recurringEventId": "601e3fb163cef560917433ce",
+      "originalStartTime": {
+        "date": "2021-37-26",
+        "dateTime": "2021-01-27T04:34:13+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "transparency": "transparent",
+      "visibility": "confidential",
+      "iCalUID": "TODO : SEARCH FORMAT",
+      "sequence": 720,
+      "attendees": [
+        {
+          "id": "601e3fb1e3f0ec8bdc522744",
+          "email": "osborn@mail.us",
+          "displayName": "Corine",
+          "organizer": true,
+          "self": true,
+          "resource": false,
+          "optional": false,
+          "responseStatus": "confirmed",
+          "comment": "Cupidatat exercitation aute dolore exercitation reprehenderit. Fugiat ullamco consectetur in duis nulla consequat minim culpa. Consectetur enim et eiusmod ea adipisicing dolore ad labore.",
+          "additionalGuests": 0
+        },
+        {
+          "id": "601e3fb181c9fda479f5a17d",
+          "email": "holman@mail.me",
+          "displayName": "Rachel",
+          "organizer": true,
+          "self": false,
+          "resource": true,
+          "optional": false,
+          "responseStatus": "tentative",
+          "comment": "Nulla duis cillum non commodo aute duis occaecat Lorem consequat velit dolor enim. Est dolor occaecat laborum do voluptate. Aliquip duis laboris ea minim non magna minim labore exercitation do. Veniam aliqua ullamco reprehenderit fugiat dolore do eiusmod esse non. Ut proident duis voluptate occaecat adipisicing qui magna anim. Consectetur ad eu sunt est incididunt.",
+          "additionalGuests": 1
+        },
+        {
+          "id": "601e3fb1e614463d0715675b",
+          "email": "beach@mail.tv",
+          "displayName": "Estrada",
+          "organizer": true,
+          "self": true,
+          "resource": false,
+          "optional": false,
+          "responseStatus": "tentative",
+          "comment": "Tempor ad occaecat ex incididunt ad minim reprehenderit sit occaecat qui occaecat. Id nisi amet do est in laborum non cupidatat consectetur laborum officia enim velit. Ad ea nulla dolor ex aliquip id fugiat commodo occaecat enim duis commodo. Sit aute id adipisicing deserunt tempor velit exercitation sint anim elit sit minim ad nulla. Qui quis ex in officia cillum sunt sint. Nulla deserunt voluptate pariatur laboris laborum nisi velit ea eiusmod do deserunt laboris. Do ullamco elit labore officia.",
+          "additionalGuests": 5
+        },
+        {
+          "id": "601e3fb13abe90dfb13ac47f",
+          "email": "figueroa@mail.ca",
+          "displayName": "Joyner",
+          "organizer": true,
+          "self": true,
+          "resource": true,
+          "optional": false,
+          "responseStatus": "confirmed",
+          "comment": "Labore enim dolore mollit qui fugiat officia veniam dolore commodo. Voluptate qui est et in amet est pariatur magna est anim nulla ad. Velit laboris minim ullamco tempor incididunt occaecat eu reprehenderit ullamco esse sunt.",
+          "additionalGuests": 2
+        },
+        {
+          "id": "601e3fb16b9d5adcf3638e31",
+          "email": "cook@mail.info",
+          "displayName": "Howe",
+          "organizer": true,
+          "self": true,
+          "resource": false,
+          "optional": false,
+          "responseStatus": "confirmed",
+          "comment": "Est tempor proident occaecat commodo nostrud excepteur adipisicing ex mollit dolore. Velit nostrud ex excepteur eu minim laboris eiusmod aliqua veniam. Ut nulla in commodo amet reprehenderit minim duis mollit enim est.",
+          "additionalGuests": 0
+        },
+        {
+          "id": "601e3fb1988ceb3d597d85cf",
+          "email": "ayala@mail.biz",
+          "displayName": "Verna",
+          "organizer": true,
+          "self": false,
+          "resource": true,
+          "optional": false,
+          "responseStatus": "tentative",
+          "comment": "Quis officia dolor ipsum commodo id ea ad. Sit fugiat est magna Lorem. Cillum dolore incididunt sit voluptate magna sunt non do consequat amet. Est ad excepteur elit voluptate irure Lorem nisi fugiat velit incididunt non est duis. Tempor non laboris cillum nisi. Veniam eiusmod enim pariatur fugiat laborum tempor velit excepteur commodo occaecat ipsum.",
+          "additionalGuests": 3
+        },
+        {
+          "id": "601e3fb16e3800326afaa7ef",
+          "email": "giles@mail.biz",
+          "displayName": "William",
+          "organizer": false,
+          "self": false,
+          "resource": true,
+          "optional": true,
+          "responseStatus": "tentative",
+          "comment": "Ipsum excepteur occaecat qui minim commodo exercitation nulla. Incididunt sit voluptate ut est. Aliqua esse sit sint qui mollit ea officia nisi incididunt ullamco nisi sint cillum sint. Non ut nostrud id officia nisi nostrud Lorem. Pariatur culpa ipsum ut ea nulla amet ex officia. Et cillum eu eu officia occaecat adipisicing culpa cillum enim irure consectetur.",
+          "additionalGuests": 9
+        }
+      ],
+      "attendeesOmitted": true,
+      "hangoutLink": "http://localhost:3000/event/601e3fb14f592a9cc5f91c5d",
+      "conferenceData": {
+        "createRequest": {
+          "requestId": "601e3fb11757bcc3d37d5cbb",
+          "conferenceSolutionKey": {
+            "type": "601e3fb1c72230261d3fcc27"
+          },
+          "status": {
+            "statusCode": "failure"
+          }
+        },
+        "entryPoints": [
+          {
+            "entryPointType": "excepteur",
+            "uri": "mollit",
+            "label": "anim",
+            "pin": "velit",
+            "accessCode": "sint",
+            "meetingCode": "tempor",
+            "passcode": "eu",
+            "password": "eu"
+          },
+          {
+            "entryPointType": "deserunt",
+            "uri": "ea",
+            "label": "et",
+            "pin": "fugiat",
+            "accessCode": "deserunt",
+            "meetingCode": "duis",
+            "passcode": "laboris",
+            "password": "esse"
+          }
+        ],
+        "conferenceSolution": {
+          "key": {
+            "type": "amet"
+          },
+          "name": "deserunt",
+          "iconUri": "http://placehold.it/32x32"
+        },
+        "conferenceId": "601e3fb10c2ed5ecefa58d14",
+        "signature": "ex",
+        "notes": "magna"
+      },
+      "anyoneCanAddSelf": false,
+      "guestsCanInviteOthers": true,
+      "guestsCanModify": true,
+      "guestsCanSeeOtherGuests": true,
+      "privateCopy": false,
+      "locked": false,
+      "reminders": {
+        "useDefault": true,
+        "overrides": []
+      },
+      "source": {
+        "url": "http://Thornton.com/",
+        "title": "ea"
+      },
+      "attachments": [
+        {
+          "fileUrl": "http://Gentry.co.uk/",
+          "title": "esse",
+          "mimeType": "dolor",
+          "iconLink": "http://placehold.it/32x32",
+          "fileId": "601e3fb1aedf0f222452302d"
+        }
+      ]
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "601e3fb146bbe1d318848a5f",
+      "id": "601e3fb18881c7088bc3fd2a",
+      "status": "tentative",
+      "htmlLink": "http://localhost:3000/event/601e3fb18881c7088bc3fd2a",
+      "media": [
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "qui",
+          "mimeType": "eu",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb1a1547df50bf08d90"
+        },
+        {
+          "url": "http://placehold.it/360x240",
+          "title": "minim",
+          "mimeType": "eu",
+          "iconLink": "http://placehold.it/32x32",
+          "id": "601e3fb107b776952c892fc8"
+        }
+      ],
+      "tags": [
+        "balade",
+        "bébé",
+        "expert",
+        "extétieur"
+      ],
+      "created": "2017-12-18T00:33:45+00:00",
+      "updated": "2021-01-15T22:42:42+00:00",
+      "summary": "pariatur consectetur ut enim",
+      "description": "Pariatur quis adipisicing magna ut. Veniam consectetur ipsum reprehenderit amet. Dolore amet proident consectetur aliqua fugiat velit anim pariatur fugiat excepteur magna non dolor. Eiusmod cupidatat consequat irure est fugiat. Anim velit do veniam sunt reprehenderit ipsum proident culpa occaecat irure amet minim enim. Incididunt exercitation sit minim quis commodo consequat irure Lorem. Laborum et ipsum consequat aliquip cupidatat ut enim sunt proident nostrud enim id laborum.",
+      "location": "550 Dwight Street, Foxworth, West Virginia, 6325",
+      "colorId": "blue",
+      "price": "97.25",
+      "creator": {
+        "id": "601e3fb11dcff2379a6502cf",
+        "email": "keller@mail.net",
+        "displayName": "Barnett",
+        "self": false
+      },
+      "organizer": {
+        "id": "601e3fb1a4e52c4c4035665c",
+        "email": "mack@mail.io",
+        "displayName": "Lea",
+        "self": true
+      },
+      "start": {
+        "date": "2021-52-13",
+        "dateTime": "2021-01-09T14:37:20+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "end": {
+        "date": "2021-42-09",
+        "dateTime": "2021-01-18T06:55:02+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "endTimeUnspecified": false,
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;COUNT=5;BYDAY=TU,FR"
+      ],
+      "recurringEventId": "601e3fb1eb808de1267eb9e9",
+      "originalStartTime": {
+        "date": "2021-45-04",
+        "dateTime": "2021-01-21T08:05:10+00:00",
+        "timeZone": "Europe/Paris"
+      },
+      "transparency": "transparent",
+      "visibility": "public",
+      "iCalUID": "TODO : SEARCH FORMAT",
+      "sequence": 988,
+      "attendees": [
+        {
+          "id": "601e3fb1ed517d167e7874be",
+          "email": "rush@mail.org",
+          "displayName": "Larson",
+          "organizer": true,
+          "self": false,
+          "resource": true,
+          "optional": false,
+          "responseStatus": "tentative",
+          "comment": "Et voluptate excepteur deserunt enim labore ad. Eu labore cillum in qui occaecat. Cillum exercitation laborum officia Lorem pariatur.",
+          "additionalGuests": 1
+        },
+        {
+          "id": "601e3fb196dc31f15e878c88",
+          "email": "macias@mail.us",
+          "displayName": "Beck",
+          "organizer": true,
+          "self": true,
+          "resource": false,
+          "optional": true,
+          "responseStatus": "tentative",
+          "comment": "Exercitation dolor eiusmod qui consectetur non velit anim fugiat. Fugiat esse consectetur eu culpa veniam nulla eu deserunt. Duis aliqua qui exercitation culpa duis cillum labore veniam cillum nisi quis sunt. Mollit anim culpa sint ad nulla amet laborum dolor sint proident mollit id. Nisi consectetur adipisicing eiusmod Lorem nulla aute qui laborum aute dolore duis cillum aliquip laboris. Exercitation quis nulla aliquip quis proident proident.",
+          "additionalGuests": 10
+        },
+        {
+          "id": "601e3fb11ac93bde47634de9",
+          "email": "jensen@mail.me",
+          "displayName": "Liz",
+          "organizer": true,
+          "self": true,
+          "resource": false,
+          "optional": true,
+          "responseStatus": "confirmed",
+          "comment": "Tempor excepteur laborum elit reprehenderit adipisicing cupidatat exercitation esse proident occaecat. Nisi aliquip ut eu eu nisi occaecat minim commodo mollit sunt proident. Consectetur sunt ea laborum sunt amet. Id veniam Lorem do minim voluptate et do non.",
+          "additionalGuests": 6
+        },
+        {
+          "id": "601e3fb166338978ccba9560",
+          "email": "cantrell@mail.tv",
+          "displayName": "Brandie",
+          "organizer": true,
+          "self": true,
+          "resource": false,
+          "optional": false,
+          "responseStatus": "confirmed",
+          "comment": "Deserunt et proident aliquip cupidatat culpa. Proident ut nisi elit eiusmod. Nulla esse excepteur minim adipisicing amet sunt commodo do non eiusmod. Culpa ea duis irure esse. Mollit mollit minim voluptate exercitation aute ea velit ad dolore cillum nulla amet eiusmod est. Non laborum anim non duis magna veniam id voluptate ipsum. Aliquip cillum Lorem voluptate Lorem.",
+          "additionalGuests": 10
+        },
+        {
+          "id": "601e3fb146035ca2bb1e86db",
+          "email": "mcmahon@mail.ca",
+          "displayName": "Norris",
+          "organizer": true,
+          "self": true,
+          "resource": true,
+          "optional": true,
+          "responseStatus": "tentative",
+          "comment": "Ex veniam labore enim reprehenderit esse. Duis nostrud velit amet minim adipisicing occaecat eiusmod nulla sint ut ad. Dolor dolor aliqua sunt exercitation ullamco ex nisi.",
+          "additionalGuests": 9
+        },
+        {
+          "id": "601e3fb1878b9756042b15a2",
+          "email": "alvarez@mail.info",
+          "displayName": "Tami",
+          "organizer": false,
+          "self": false,
+          "resource": true,
+          "optional": false,
+          "responseStatus": "tentative",
+          "comment": "Tempor ullamco enim mollit mollit incididunt quis aliquip laboris anim commodo est deserunt. Aliqua nisi nostrud officia cillum reprehenderit. Commodo nisi aliquip sit aliquip ad Lorem. Et ipsum velit magna sint aute aliqua ex consectetur officia.",
+          "additionalGuests": 2
+        },
+        {
+          "id": "601e3fb111695cf616c0db9f",
+          "email": "mendoza@mail.biz",
+          "displayName": "Hickman",
+          "organizer": false,
+          "self": false,
+          "resource": false,
+          "optional": true,
+          "responseStatus": "cancelled",
+          "comment": "Commodo eu laboris ullamco ullamco aliqua in exercitation. Laboris voluptate ex sit esse culpa proident ad consectetur ipsum eiusmod. Aute ut sunt cupidatat enim mollit irure non.",
+          "additionalGuests": 2
+        },
+        {
+          "id": "601e3fb140cc7b73c3dc5bb7",
+          "email": "dennis@mail.biz",
+          "displayName": "Patel",
+          "organizer": true,
+          "self": false,
+          "resource": false,
+          "optional": true,
+          "responseStatus": "confirmed",
+          "comment": "Adipisicing ea incididunt ea ea culpa incididunt. Fugiat consequat fugiat incididunt qui consequat reprehenderit amet qui adipisicing in elit nulla aliquip irure. Eiusmod est in commodo veniam adipisicing. Laboris voluptate ex consectetur minim laborum ipsum duis aute enim ipsum ex nostrud.",
+          "additionalGuests": 7
+        },
+        {
+          "id": "601e3fb129b4c5b88e5908ee",
+          "email": "pena@mail.com",
+          "displayName": "Herring",
+          "organizer": false,
+          "self": true,
+          "resource": false,
+          "optional": true,
+          "responseStatus": "confirmed",
+          "comment": "Commodo nostrud qui irure in ullamco. Proident elit occaecat enim deserunt quis adipisicing mollit do tempor ipsum ea sit qui amet. Sunt nostrud sunt sit ipsum. Reprehenderit consequat amet et aliqua velit quis quis pariatur minim.",
+          "additionalGuests": 4
+        },
+        {
+          "id": "601e3fb1ed97471777813dc6",
+          "email": "henson@mail.co.uk",
+          "displayName": "Terrie",
+          "organizer": false,
+          "self": true,
+          "resource": false,
+          "optional": true,
+          "responseStatus": "confirmed",
+          "comment": "Lorem est veniam nisi sit ut cillum anim voluptate esse labore ad aute incididunt dolor. Incididunt culpa quis excepteur nostrud esse do veniam velit deserunt. Irure aliquip ullamco laborum id ea dolor minim magna qui. Labore nulla non cupidatat sit incididunt id ea ullamco quis consectetur tempor veniam. Incididunt ex velit aliquip do sunt nisi do aute eu anim deserunt enim Lorem in.",
+          "additionalGuests": 5
+        }
+      ],
+      "attendeesOmitted": false,
+      "hangoutLink": "http://localhost:3000/event/601e3fb18881c7088bc3fd2a",
+      "conferenceData": {
+        "createRequest": {
+          "requestId": "601e3fb1b6d33b13d6d0c504",
+          "conferenceSolutionKey": {
+            "type": "601e3fb1e43cbc92f46225b6"
+          },
+          "status": {
+            "statusCode": "success"
+          }
+        },
+        "entryPoints": [
+          {
+            "entryPointType": "veniam",
+            "uri": "in",
+            "label": "adipisicing",
+            "pin": "deserunt",
+            "accessCode": "consequat",
+            "meetingCode": "velit",
+            "passcode": "non",
+            "password": "do"
+          },
+          {
+            "entryPointType": "minim",
+            "uri": "veniam",
+            "label": "ad",
+            "pin": "eu",
+            "accessCode": "adipisicing",
+            "meetingCode": "proident",
+            "passcode": "eu",
+            "password": "non"
+          }
+        ],
+        "conferenceSolution": {
+          "key": {
+            "type": "eu"
+          },
+          "name": "ad",
+          "iconUri": "http://placehold.it/32x32"
+        },
+        "conferenceId": "601e3fb1683493ef548fffdd",
+        "signature": "sunt",
+        "notes": "ad"
+      },
+      "anyoneCanAddSelf": false,
+      "guestsCanInviteOthers": true,
+      "guestsCanModify": false,
+      "guestsCanSeeOtherGuests": false,
+      "privateCopy": true,
+      "locked": false,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 480
+          }
+        ]
+      },
+      "source": {
+        "url": "http://Gillespie.net/",
+        "title": "ullamco"
+      },
+      "attachments": []
+    }
+  ]

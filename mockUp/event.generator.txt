@@ -1,0 +1,168 @@
+[
+  {
+    'repeat(5, 10)': {
+      kind: "calendar#event",
+      etag: '{{objectId()}}',
+      id: '{{objectId()}}',
+      status: '{{random("confirmed", "tentative", "cancelled")}}',
+      htmlLink() {
+        return `http://localhost:3000/event/${this.id}`.toLowerCase();
+      },
+      media: [
+        {
+          'repeat(1, 4)': {
+            url: 'http://placehold.it/360x240',
+            title: '{{lorem(1, "words")}}',
+            mimeType: '{{lorem(1, "words")}}',
+            iconLink: 'http://placehold.it/32x32',
+            id: '{{objectId()}}'
+          }
+        }
+      ],
+      tags: [
+      '{{random("yoga", "danse", "musique", "foot", "balade")}}',
+        '{{random("ado", "senior", "adulte", "kids", "bébé")}}',
+        '{{random("débutant", "expert")}}',
+        '{{random("extétieur", "intérieur")}}'
+      ],
+
+      created: '{{moment(this.date(new Date(2014, 0, 1), new Date(2020, 0, 1))).format()}}',
+      updated: '{{moment(this.date(new Date(2021, 0, 1), new Date())).format()}}',
+      summary: '{{lorem(4, "word")}}',
+      description: '{{lorem(1, "paragraphs")}}',
+      location: '{{integer(100, 999)}} {{street()}}, {{city()}}, {{state()}}, {{integer(100, 10000)}}',
+      colorId: '{{random("blue", "brown", "green")}}',
+      price: '{{floating(0, 100, 2, "0,0.00")}}',
+      creator: {
+        id: '{{objectId()}}',
+        email(tags) {
+          return `${tags.surname()}@mail${tags.domainZone()}`.toLowerCase();
+        },
+        displayName: '{{firstName()}}',
+        self: '{{bool()}}'
+      },
+      organizer: {
+        id: '{{objectId()}}',
+        email(tags) {
+          return `${tags.surname()}@mail${tags.domainZone()}`.toLowerCase();
+        },
+        displayName: '{{firstName()}}',
+        self: '{{bool()}}'
+      },
+      start: {
+        date: '{{moment(this.date(new Date(2021, 0, 1), new Date())).format("YYYY-mm-DD")}}',
+        dateTime: '{{moment(this.date(new Date(2021, 0, 1), new Date())).format()}}',
+        timeZone: "Europe/Paris"
+      },
+      end: {
+        date: '{{moment(this.date(new Date(2022, 0, 1), new Date())).format("YYYY-mm-DD")}}',
+        dateTime: '{{moment(this.date(new Date(2021, 0, 1), new Date())).format()}}',
+        timeZone: "Europe/Paris"
+      },
+      endTimeUnspecified: '{{bool()}}',
+      recurrence: [
+        "RRULE:FREQ=WEEKLY;COUNT=5;BYDAY=TU,FR"
+      ],
+      recurringEventId: '{{objectId()}}',
+      originalStartTime: {
+        date: '{{moment(this.date(new Date(2021, 0, 1), new Date())).format("YYYY-mm-DD")}}',
+        dateTime: '{{moment(this.date(new Date(2021, 0, 1), new Date())).format()}}',
+        timeZone: "Europe/Paris"
+      },
+      transparency: '{{random("opaque", "transparent")}}',
+      visibility: '{{random("default", "public", "private", "confidential")}}',
+      iCalUID: 'TODO : SEARCH FORMAT',
+      sequence: '{{integer(100, 999)}}',
+      attendees: [
+        {
+        'repeat(1, 10)':
+          {
+            id: '{{objectId()}}',
+            email(tags) {
+          return `${tags.surname()}@mail${tags.domainZone()}`.toLowerCase();
+        },
+            displayName: '{{firstName()}}',
+            organizer: '{{bool()}}',
+            self: '{{bool()}}',
+            resource: '{{bool()}}',
+            optional: '{{bool()}}',
+            responseStatus: '{{random("confirmed", "tentative", "cancelled")}}',
+            comment: '{{lorem(1, "paragraphs")}}',
+            additionalGuests: '{{integer(0, 10)}}'
+          }
+        }
+      ],
+      attendeesOmitted: '{{bool()}}',
+      hangoutLink() {
+        return `http://localhost:3000/event/${this.id}`.toLowerCase();
+      },
+      conferenceData: {
+        createRequest: {
+          requestId: '{{objectId()}}',
+          conferenceSolutionKey: {
+            type: '{{objectId()}}'
+          },
+          status: {
+            statusCode: '{{random("pending", "success", "failure")}}'
+          }
+        },
+        entryPoints: [
+          {
+            'repeat(0, 4)': {
+              entryPointType: '{{lorem(1, "word")}}',
+              uri: '{{lorem(1, "word")}}',
+              label: '{{lorem(1, "word")}}',
+              pin: '{{lorem(1, "word")}}',
+              accessCode: '{{lorem(1, "word")}}',
+              meetingCode: '{{lorem(1, "word")}}',
+              passcode: '{{lorem(1, "word")}}',
+              password: '{{lorem(1, "word")}}'
+            }
+          }
+        ],
+        conferenceSolution: {
+          key: {
+            type: '{{lorem(1, "word")}}'
+          },
+          name: '{{lorem(1, "word")}}',
+          iconUri: 'http://placehold.it/32x32'
+        },
+        conferenceId: '{{objectId()}}',
+        signature: '{{lorem(1, "word")}}',
+        notes: '{{lorem(1, "word")}}',
+      },
+      anyoneCanAddSelf: '{{bool()}}',
+      guestsCanInviteOthers: '{{bool()}}',
+      guestsCanModify: '{{bool()}}',
+      guestsCanSeeOtherGuests: '{{bool()}}',
+      privateCopy: '{{bool()}}',
+      locked: '{{bool()}}',
+      reminders: {
+        useDefault: '{{bool()}}',
+        overrides: [
+          {
+            'repeat(0, 4)': {
+              method: '{{random("email", "popup", "sms")}}',
+              minutes: '{{integer(0, 1000)}}'
+            }
+          }
+        ]
+      },
+      source: {
+        url: "http://{{surname()}}{{domainZone()}}/",
+        title: '{{lorem(1, "word")}}'
+      },
+      attachments: [
+        {
+          'repeat(0, 4)':{
+            fileUrl: "http://{{surname()}}{{domainZone()}}/",
+            title: '{{lorem(1, "word")}}',
+            mimeType: '{{lorem(1, "word")}}',
+            iconLink: 'http://placehold.it/32x32',
+            fileId: '{{objectId()}}'
+          }
+        }
+      ]
+  	}
+  }
+]
