@@ -68,26 +68,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 `npx create-react-app my-app --template typescript`
 
-
-
-
-
-
-
-### add project to git repo :
-
-    git init
-    git add .
-    git commit -m "first commit"
-    git branch -M main
-    git remote add origin https://github.com/pleleu-dev/mix-and-match.git
-
-
-
-
-
-
-
 ### setting up vs code :
 
 Plugins : ESLint / Prettier / Babel Javascript
